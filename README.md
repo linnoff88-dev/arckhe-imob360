@@ -1,4 +1,10 @@
-# Imob360 - Sistema de Gestao Imobiliaria
+﻿# Imob360 - Sistema de Gestao Imobiliaria
+
+<div align="center">
+  <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
+  <p><strong>Arckhé AI</strong></p>
+</div>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
@@ -792,44 +798,44 @@ docker compose logs -f
 
 ```
 imob360/
-├── apps/
-│   ├── api/                    # Backend (Express + TypeScript)
-│   │   ├── src/
-│   │   │   ├── common/         # Middlewares, utils
-│   │   │   ├── config/         # Configuracoes (DB, Redis, Logger)
-│   │   │   └── modules/        # Modulos da API
-│   │   │       ├── auth/       # Autenticacao
-│   │   │       ├── properties/ # Imoveis
-│   │   │       ├── people/     # Pessoas
-│   │   │       ├── leads/      # Leads/CRM
-│   │   │       ├── visits/     # Visitas
-│   │   │       ├── contracts/  # Contratos
-│   │   │       ├── dashboard/  # Metricas
-│   │   │       ├── features/   # Feature flags
-│   │   │       ├── whatsapp/   # Integracao WhatsApp
-│   │   │       ├── portals/    # Integracao portais
-│   │   │       ├── payments/   # Pagamentos
-│   │   │       └── settings/   # Configuracoes
-│   │   └── Dockerfile
-│   │
-│   └── web/                    # Frontend (Next.js 14)
-│       ├── src/
-│       │   ├── app/            # App Router (paginas)
-│       │   ├── components/     # Componentes React
-│       │   ├── lib/            # Utilitarios
-│       │   └── store/          # Estado global (Zustand)
-│       └── Dockerfile
-│
-├── packages/
-│   ├── database/               # Prisma (schema e migrations)
-│   │   └── prisma/
-│   │       └── schema.prisma   # Modelo de dados
-│   └── shared/                 # Codigo compartilhado
-│
-├── nginx/                      # Configuracao Nginx
-├── docker-compose.yml          # Producao
-├── docker-compose.dev.yml      # Desenvolvimento
-└── .env.example                # Variaveis de ambiente
+â”œâ”€â”€ apps/
+â”‚   â”œâ”€â”€ api/                    # Backend (Express + TypeScript)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ common/         # Middlewares, utils
+â”‚   â”‚   â”‚   â”œâ”€â”€ config/         # Configuracoes (DB, Redis, Logger)
+â”‚   â”‚   â”‚   â””â”€â”€ modules/        # Modulos da API
+â”‚   â”‚   â”‚       â”œâ”€â”€ auth/       # Autenticacao
+â”‚   â”‚   â”‚       â”œâ”€â”€ properties/ # Imoveis
+â”‚   â”‚   â”‚       â”œâ”€â”€ people/     # Pessoas
+â”‚   â”‚   â”‚       â”œâ”€â”€ leads/      # Leads/CRM
+â”‚   â”‚   â”‚       â”œâ”€â”€ visits/     # Visitas
+â”‚   â”‚   â”‚       â”œâ”€â”€ contracts/  # Contratos
+â”‚   â”‚   â”‚       â”œâ”€â”€ dashboard/  # Metricas
+â”‚   â”‚   â”‚       â”œâ”€â”€ features/   # Feature flags
+â”‚   â”‚   â”‚       â”œâ”€â”€ whatsapp/   # Integracao WhatsApp
+â”‚   â”‚   â”‚       â”œâ”€â”€ portals/    # Integracao portais
+â”‚   â”‚   â”‚       â”œâ”€â”€ payments/   # Pagamentos
+â”‚   â”‚   â”‚       â””â”€â”€ settings/   # Configuracoes
+â”‚   â”‚   â””â”€â”€ Dockerfile
+â”‚   â”‚
+â”‚   â””â”€â”€ web/                    # Frontend (Next.js 14)
+â”‚       â”œâ”€â”€ src/
+â”‚       â”‚   â”œâ”€â”€ app/            # App Router (paginas)
+â”‚       â”‚   â”œâ”€â”€ components/     # Componentes React
+â”‚       â”‚   â”œâ”€â”€ lib/            # Utilitarios
+â”‚       â”‚   â””â”€â”€ store/          # Estado global (Zustand)
+â”‚       â””â”€â”€ Dockerfile
+â”‚
+â”œâ”€â”€ packages/
+â”‚   â”œâ”€â”€ database/               # Prisma (schema e migrations)
+â”‚   â”‚   â””â”€â”€ prisma/
+â”‚   â”‚       â””â”€â”€ schema.prisma   # Modelo de dados
+â”‚   â””â”€â”€ shared/                 # Codigo compartilhado
+â”‚
+â”œâ”€â”€ nginx/                      # Configuracao Nginx
+â”œâ”€â”€ docker-compose.yml          # Producao
+â”œâ”€â”€ docker-compose.dev.yml      # Desenvolvimento
+â””â”€â”€ .env.example                # Variaveis de ambiente
 ```
 
 ---
@@ -876,3 +882,10 @@ Software proprietario. Todos os direitos reservados.
 <p align="center">
   Feito com dedicacao para imobiliarias brasileiras
 </p>
+
+---
+
+<div align="center">
+  <img src="capa/logo.svg" alt="Arckhé AI" height="32" />
+  <p><strong>Arckhé AI</strong></p>
+</div>
