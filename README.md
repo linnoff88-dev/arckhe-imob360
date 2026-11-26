@@ -207,7 +207,7 @@ Abra o terminal (Prompt de Comando no Windows) e execute:
 cd ~/projetos  # ou qualquer pasta de sua preferencia
 
 # Clone o repositorio
-git clone https://github.com/inematds/imob360.git
+git clone https://github.com/linnoff88-dev/imob360.git
 
 # Entre na pasta do projeto
 cd imob360
@@ -864,7 +864,7 @@ imob360/
 ### Precisa de Ajuda?
 
 - **Documentacao**: Voce esta aqui!
-- **Issues**: [github.com/inematds/imob360/issues](https://github.com/inematds/imob360/issues)
+- **Issues**: [github.com/linnoff88-dev/imob360/issues](https://github.com/linnoff88-dev/imob360/issues)
 - **E-mail**: suporte@imob360.com.br
 
 ### Contribuicoes
