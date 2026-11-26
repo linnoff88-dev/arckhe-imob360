@@ -406,7 +406,7 @@ portalsRouter.get('/:portal/feed', async (req, res, next) => {
       CodigoImovel: p.code,
       TipoImovel: mapPropertyType(p.type),
       SubTipoImovel: p.subType || '',
-      CategoriaImovel: p.purpose === 'SALE' ? 'Padrão' : 'Padrão',
+      CategoriaImovel: p.purpose === 'SALE' ? 'Padrêo' : 'Padrêo',
       Endereco: p.address,
       Numero: p.number || '',
       Complemento: p.complement || '',
@@ -427,7 +427,7 @@ portalsRouter.get('/:portal/feed', async (req, res, next) => {
         Foto: ((p.images as string[]) || []).map((url, idx) => ({
           NomeArquivo: `foto${idx + 1}.jpg`,
           URLArquivo: url,
-          Principal: idx === 0 ? 'Sim' : 'Não',
+          Principal: idx === 0 ? 'Sim' : 'Nêo',
         })),
       },
     }));
